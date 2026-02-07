@@ -1,5 +1,5 @@
 ## This is my resume made from only HTML:
-https://resume-steel-kappa-78.vercel.app/
+https://cohort-assignments-opal.vercel.app/
 
 # OUTPUT:
 <img width="1904" height="985" alt="image" src="https://github.com/user-attachments/assets/b1c9fc19-7150-4b39-a71c-66e20c52ce59" />
