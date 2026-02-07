@@ -1,0 +1,155 @@
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  font-family: "Carrois Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  padding: 0rem 60px 0rem 58px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-inline: auto;
+  position: fixed;
+  background-color: #000;
+}
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  font-size: large;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-img {
+  width: 6rem;
+  height: 2rem;
+}
+.nav-btn1 {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem;
+  width: 4rem;
+}
+.nav-btn2 {
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem;
+  width: 6rem;
+}
+
+.hero {
+  margin: 0 8rem 0 8rem;
+}
+.hero-div {
+  font-size: xx-large;
+  width: 46%;
+  line-height: 33px;
+}
+.hero-btn {
+  font-size: medium;
+  background-color: #fff;
+  color: #000;
+  border-radius: 4rem;
+  padding: 1rem 1rem;
+  width: 16rem;
+}
+.hero-img {
+  width: 80rem;
+  padding-top: 3rem;
+}
+
+.trustedBy {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.card-1 {
+  background-color: #1c1818;
+  height: 5rem;
+}
+.card-1 img {
+  width: auto;
+  height: 2.5rem;
+  padding-top: 1rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 5px;
+  padding-top: 1rem;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  background-color: #1c1818;
+  padding: 1rem;
+}
+.box-1 img {
+  width: 450px;
+  height: 600px;
+}
+.box-2 img {
+  width: 800px;
+  height: 600px;
+}
+
+.box-3 img {
+  width: 800px;
+  height: 600px;
+}
+.box-4 img {
+  width: 450px;
+  height: 600px;
+}
+
+.review {
+  margin: 9rem 8rem 0 8rem;
+}
+.rev-heading {
+  font-size: xx-large;
+  text-align: center;
+}
+.rev {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+.rev-card {
+  display: grid;
+  background-color: #14120b;
+  width: 90%;
+  height: 90%;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+.rev-card-internal {
+  padding-top: 2rem;
+  display: flex;
+}
+.rev-card-internal-left img {
+  width: 3rem;
+  height: 3rem;
+}
+.rev-card-internal-right {
+  width: 100%;
+  padding-left: 1rem;
+}
+.positions {
+  margin-top: 25px;
+  font-size: small;
+}
